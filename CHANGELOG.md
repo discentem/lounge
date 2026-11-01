@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.1
+
+### Patch Changes
+
+- 1317a91: After a cold start, Lounge takes over Home about 10 seconds sooner: once webOS has brought LG's Home back from its saved image, Lounge drops that image and takes its place at once, instead of waiting for webOS to finish saving it.
+- 36ad922: Motion is timed to the display's refresh: every frame of an animation moves by the same amount, even when the TV wakes Lounge a few milliseconds early or late.
+
 ## 1.2.0
 
 ### Minor Changes
